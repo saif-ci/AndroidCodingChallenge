@@ -1,3 +1,4 @@
 <resources>
 	<string name="app_name">AndroidOTChallenge</string>
+	<string name="by_author">By %1s</string>
 </resources>
