@@ -2,6 +2,7 @@
 <resources>
     <dimen name="spacing_50">8dp</dimen>
     <dimen name="spacing_100">16dp</dimen>
+    <dimen name="spacing_450">72dp</dimen>
     <dimen name="book_image_width">100dp</dimen>
     <dimen name="book_image_height">150dp</dimen>
 </resources>
