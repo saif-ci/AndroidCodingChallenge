@@ -15,9 +15,11 @@ constraintlayout = "2.1.4"
 dagger = "2.52"
 retrofit = "2.11.0"
 glide = "4.16.0"
+robolectric = "4.13"
 rx-android = "3.0.2"
 rx-java = "3.1.9"
 rx-kotlin = "3.0.1"
+coreKtxVersion = "1.6.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -35,9 +37,11 @@ retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = 
 retrofit-rx-adapter = { group = "com.squareup.retrofit2", name = "adapter-rxjava3", version.ref = "retrofit" }
 retrofit-moshi = { group = "com.squareup.retrofit2", name ="converter-moshi", version.ref = "retrofit" }
 glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+robolectric = { module = "org.robolectric:robolectric", version.ref = "robolectric" }
 rx-java = {group = "io.reactivex.rxjava3", name="rxjava", version.ref = "rx-java"}
 rx-android = {group = "io.reactivex.rxjava3", name="rxandroid", version.ref = "rx-android"}
 rx-kotlin = {group = "io.reactivex.rxjava3", name="rxkotlin", version.ref = "rx-kotlin"}
+core-ktx = { group = "androidx.test", name = "core-ktx", version.ref = "coreKtxVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

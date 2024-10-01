@@ -32,6 +32,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources =  true
+        }
+    }
 }
 
 anvil {
@@ -66,6 +72,8 @@ dependencies {
     implementation libs.rx.kotlin
 
     testImplementation libs.junit
+    testImplementation libs.robolectric
+    testImplementation libs.core.ktx
     androidTestImplementation libs.androidx.junit
     androidTestImplementation libs.androidx.espresso.core
 }
