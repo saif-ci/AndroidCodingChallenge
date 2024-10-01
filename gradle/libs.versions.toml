@@ -1,5 +1,6 @@
 [versions]
 agp = "8.4.2"
+anvil = "0.3.1"
 kotlin = "2.0.20"
 ksp = "2.0.20-1.0.25"
 coreKtx = "1.13.1"
@@ -37,6 +38,7 @@ rx-kotlin = {group = "io.reactivex.rxjava3", name="rxkotlin", version.ref = "rx-
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
+anvil = {id = "dev.zacsweers.anvil" , version.ref = "anvil" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp"}
 
