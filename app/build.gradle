@@ -9,6 +9,10 @@ android {
     namespace 'com.example.otchallenge'
     compileSdk 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "com.example.otchallenge"
         minSdk 24
