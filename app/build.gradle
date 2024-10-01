@@ -52,6 +52,10 @@ dependencies {
     //retrofit
     implementation libs.retrofit
     implementation libs.retrofit.rx.adapter
+    implementation libs.retrofit.moshi
+
+    //moshi
+    ksp libs.moshi.codegen
 
     //glide
     implementation libs.glide
