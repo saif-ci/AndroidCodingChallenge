@@ -1,5 +1,6 @@
 <resources>
 	<string name="app_name">AndroidOTChallenge</string>
 	<string name="by_author">By %1s</string>
+	<string name="generic_error_title">Whoops!!</string>
 	<string name="book_fetch_error_message">Failed to fetch books! Check your connection and try again.</string>
 </resources>
